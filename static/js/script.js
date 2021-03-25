@@ -13,4 +13,12 @@ function ageInDays() {
 
 function reset() {
     document.getElementById('ageInDays').remove();
-}   
+}
+
+// Challenge 2: Generate Cat
+function generateCat() {
+    var image = document.createElement('img');
+    var div = document.getElementById('flex_cat_gen');
+    image.src = "https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif";
+    div.appendChild(image);
+}

@@ -1,11 +1,13 @@
-.container1 {
+.container1,
+.container2 {
   border: 1px solid black;
   margin: 0 auto;
   width: 75%;
   text-align: center;
 }
 
-.flex-box-container1 {
+.flex-box-container1,
+.flex-box-container2 {
   display: flex;
   border: 1px solid black;
   padding: 10px;
@@ -17,4 +19,9 @@
   padding: 10px;
   border: 1px solid black;
   align-items: center;
+}
+
+.flex-box-container2 img {
+  margin: 10px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
 }
